@@ -2,14 +2,36 @@ Changelog
 -----------
 
 1.0.2 (unreleased)
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^
+
+- Drop support for Plone 4.0.x [ericof]
+
+- Increasing test coverage [ericof]
+
+- Render metadata viewlet on folder_full_view and all_content templates
+  https://github.com/collective/sc.social.like/issues/11 [ericof]
+
+- Fixes vertical display 
+  https://github.com/collective/sc.social.like/issues/5 [ericof]
+
+- Add LinkedIn and Pinterest support.
+  https://github.com/collective/sc.social.like/issues/6 [ericof]
+
+- Plugin implementation [ericof]
+
+- Ensure all resources are loaded using scheme-relative URLs.  Previously,
+  attempting to load off HTTP on HTTPS sites resulted in broken pages.
+  [davidjb]
 
 - Plone 3.x is not officially supported anymore; use it at your own risk.
   [hvelarde]
 
+- Change CSS import to link.
+  [agnogueira]
+
 
 1.0.1 (2013-03-26)
-^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 - Fix packaging [ericof]
 
@@ -27,7 +49,7 @@ Changelog
 
 
 0.9.1 (2012-06-11)
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 * FB support for simple language codes [erral]
 

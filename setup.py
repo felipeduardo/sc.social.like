@@ -21,7 +21,6 @@ setup(name='sc.social.like',
           "Development Status :: 5 - Production/Stable",
           "Environment :: Web Environment",
           "Framework :: Plone",
-          "Framework :: Plone :: 4.0",
           "Framework :: Plone :: 4.1",
           "Framework :: Plone :: 4.2",
           "Framework :: Plone :: 4.3",
@@ -47,7 +46,8 @@ setup(name='sc.social.like',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'Plone',
+          'Pillow',
+          'Plone'
       ],
       extras_require={
           'test': ['plone.app.testing']
